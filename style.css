@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.egg {
+    height: 10vh;
+    width: 8vh;
+    border-radius: 50%;
+    background-color: beige;
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    user-select: none;
+
+    font-size: 4vh;
+}
+
+
+.map {
+    user-select: none;
+}
+
+area {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rabbitContainer {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rabbit {
+    font-size: 150px;
+    transform: scale(-1, 1);
+}
